@@ -1,0 +1,59 @@
+.app-background {
+  background: url('./assets/logo.png') no-repeat center center fixed;
+  background-size: cover; /* Ensure the background covers the entire viewport */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.start-button, .check-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.input-field {
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.legitimate {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.fraudulent {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+
