@@ -57,3 +57,13 @@
 }
 
 
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo-image {
+  height: 100px;
+  object-fit: contain;
+}
