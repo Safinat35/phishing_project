@@ -17,6 +17,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.http import HttpResponse
+from django.http import JsonResponse
+
+
+def health_check(request):
+    return JsonResponse({"status": "ok"})
 
 def home(request):
     return HttpResponse("Welcome to My Django API!") 
@@ -26,5 +31,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('core.api.urls')),
     path('api/', include('posts.api.urls')),
+    path('healthz/', health_check),
 
 ]

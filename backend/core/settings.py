@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
-    'posts',
+    #'posts',
+    'backend.posts',
+
 ]
 
 #CORS_ALLOWED_ORIGINS = ['http://localhost:5173']
